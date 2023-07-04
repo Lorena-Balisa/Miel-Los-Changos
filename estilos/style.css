@@ -25,7 +25,7 @@ html{
 
 /*header*/
 /*---------zona navegable--------------*/
-header img{
+/*header img{
    width: 100px;
    margin-bottom:5px;
    margin-left: 10px;
@@ -43,7 +43,7 @@ header img{
 
 
 /*banner---------------------------*/
-.banner{
+/*.banner{
     background-image:url(../medios/fondo2.png);
     height: 250px;
     background-size: cover;
@@ -71,15 +71,15 @@ header img{
       text-shadow: 5px 2px 10px rgba(0,0,0,0.9);
       
       }
-
+    */
    /*main---------------------------*/
-
+/*
  main{
     background-image:url(../medios/fondo5.jpg);
     
  }
  /* galeria--------------------------------*/
- 
+ /*
 .galeria{
    display: grid;
    grid-template-areas:
@@ -158,6 +158,7 @@ header img{
  .galeria p{
    text-transform:none;
  }
+ 
  main{
   padding-top: 10px;
   padding-bottom: 10px;
@@ -176,10 +177,10 @@ header img{
     font-size: 2.5rem;
     text-align: center;
  }
-    
+    */
 
  /*foter----------------------------------------------*/
- footer{
+ /*footer{
     background-color: #BF9911;
     color:black;
     font-size: 1.5rem;
@@ -211,7 +212,7 @@ footer{
   padding-bottom: 10px;
 }
  /*quienes somos--------------------------------------------------------*/
- .titulohistoria{
+ /*.titulohistoria{
    width: 500px;
    padding: 50px;
    font-size: 4rem;
@@ -233,7 +234,7 @@ border-radius: 10px;
    padding-bottom: 20px;
  }
  /*-----------------productos------------------------------------------*/
-
+/*
  .presentacion h1{
   text-align: center;
   font-size: 5rem;
@@ -257,7 +258,7 @@ border-radius: 10px;
 
  
  /*---------------servicios---------------------------*/
-
+/*
  .servtext{
 display: flex;
 justify-content: center;
@@ -295,7 +296,7 @@ margin-bottom: 20px;
   
 }
 /*----------------------presupuesto------------------------*/
-
+/*
 .titulopresu{
   display: flex;
   text-align:center;
