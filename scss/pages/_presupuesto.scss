@@ -1,0 +1,53 @@
+/*PRESUPUESTO.....................*/
+.titulopresu{
+    display: flex;
+    text-align:center;
+    color: black;
+    text-decoration: underline;
+    margin: 10px 10px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 50px;
+      }
+  }
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+    margin-left: 500px;
+    h2{
+        color: rgb(7, 7, 7);
+        font-size: 35px;
+      }
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        label{
+            color: #040403;
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            }
+        input, textarea{
+            padding: 17px 25px;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            outline: none;
+            }
+        .btn{
+            font-size: 16px;
+            color:black;
+            border: 5px;
+            border-radius: 25px;
+            background-color:white;
+            box-shadow: 0 0 20px;
+            width: 100px;
+            cursor: pointer;
+            }
+        }
+  }

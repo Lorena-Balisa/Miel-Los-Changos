@@ -1,0 +1,164 @@
+/*header*/
+/*---------zona navegable--------------*/
+
+header img{
+    width: 100px;
+    margin-bottom:5px;
+    margin-left: 10px;
+ }
+.mi-color{
+    background-color:#BF9911;
+    
+  }
+.menu{
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 2rem;
+    }
+/*banner---------------------------*/
+.banner{
+    background-image:url(../medios/fondo2.png);
+    height: 250px;
+    background-size: cover;
+    font-size: 3rem;
+    h1{
+        text-align: center;
+        text-decoration:none;
+        font-size: 8.5rem;
+        padding: 50px;
+        align-items: center;
+        color: black;
+        text-shadow: 5px 1px 6px rgba(0,0,0,0.77);
+            }
+    p{
+        text-align: center;
+        font-size:3rem;
+            }    
+    .slogan{
+        color: white;
+        text-shadow: 5px 2px 10px rgba(0,0,0,0.9);
+        }
+    }
+    /*Main.......................*/
+main{
+    background-image:url(../medios/fondo5.jpg);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    h3{
+        text-align: center;
+        font-size: 3rem;
+         }
+    img{
+        width: 40%;
+       }
+    p{
+      font-size: 2.5rem;
+      text-align: center;
+    }
+ }
+
+     .galeria{
+        display: grid;
+        grid-template-areas:
+        "titulo-1 titulo-1 titulo-1"
+        "foto-1 texto-1 foto-2"
+        "foto-3 foto-4 texto-2"
+        "texto-4 foto-5 foto-6"
+        "titulo-2 foto-7 texto-3";
+        grid-template-columns: repeat(3,25%);
+        grid-template-rows: 200px 400px 400px 400px 500px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        gap: 3px;
+        font-size: 2.5rem;
+        text-transform: none;
+        p{
+            text-align: center;
+           }
+        .titulo-1{
+            grid-area: titulo-1;
+            text-align: center;
+          } 
+        .foto-1{
+            grid-area: foto-1;
+          }
+        .texto-1{
+            grid-area: texto-1;
+          }
+        .foto-2{
+            grid-area: foto-2;
+          }
+        .foto-3{
+            grid-area: foto-3;
+          }
+        .foto-4{
+            grid-area: foto-4;
+          }
+        .texto-2{
+            grid-area: texto-2;
+          }
+        .texto-4{
+            grid-area: texto-4;
+          }
+        .foto-5{
+            grid-area: foto-5;
+          }
+        .foto-6{
+            grid-area: foto-6;
+          }
+        .titulo-2{
+            grid-area: titulo-2;
+          }
+        .foto-7{
+            grid-area: foto-7;
+          }
+        .texto-3{
+            grid-area: texto-3;
+          }
+        h2{
+            font-size: 4rem;
+             padding-top: 60px;
+             color: black;
+             text-shadow: 4px 4px 9px rgba(0,0,0,0.6);
+           }
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            box-shadow:0 0 50px;
+         }
+        p{
+            text-transform:none;
+          }       
+      }
+      /*FOOTER.........................*/
+      footer{
+        background-color:#BF9911;
+        color:black;
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        img{
+            width:30px;
+         }
+        h3{
+            font-size: 2.5rem;
+            padding-top: 10px;
+            padding-bottom: 20px;
+          } 
+        iframe{
+            width: 40%;
+            height: 50%;
+          }
+     }
+    .redes p{
+        font-size: 2rem;
+      }
+    .diseño{
+        text-align: end;
+        p{
+            font-size:1.75 ;
+          }
+     }

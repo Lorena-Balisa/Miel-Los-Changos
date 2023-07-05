@@ -1,0 +1,19 @@
+     /*PRODUCTOS......................*/
+     .presentacion h1{
+        text-align: center;
+        font-size: 5rem;
+        text-decoration: underline;
+        margin: 10px 10px;
+        padding: 30px;
+        text-shadow: 4px 4px 10px rgba(0,0,0,0.6);
+        }   
+    
+    .frascos, .balde, .propoleo, .liquido{
+        border-radius: 10px 10px 10px 10px;
+        border: 9px solid #FFF7D4;
+        margin: 0% auto;
+        h2{
+            font-size: 3rem;
+            text-align:center;
+            } 
+        }
