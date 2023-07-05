@@ -1,13 +1,12 @@
 /*PRESUPUESTO.....................*/
 .titulopresu{
     display: flex;
-    text-align:center;
+    @include flex(center,center);
     color: black;
     text-decoration: underline;
     margin: 10px 10px;
     padding: 30px;
     justify-content: center;
-    align-items: center;
     h1{
         font-size: 50px;
       }

@@ -13,7 +13,7 @@ header img{
 .menu{
     color: white;
     font-family: 'Questrial', sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     }
 /*banner---------------------------*/
 .banner{
@@ -22,11 +22,11 @@ header img{
     background-size: cover;
     font-size: 3rem;
     h1{
-        text-align: center;
+      display: flex;
+      @include flex(center, center);
         text-decoration:none;
-        font-size: 8.5rem;
+        font-size:9rem;
         padding: 50px;
-        align-items: center;
         color: black;
         text-shadow: 5px 1px 6px rgba(0,0,0,0.77);
             }

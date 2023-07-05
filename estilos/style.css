@@ -4,22 +4,15 @@
 #BF9911*/
 
 /*1rem = 10px*/
-*{
-   margin: 0%;
-   padding: 0%;
-}
+
 /*tipografia*/
 
 /*font-family: 'Questrial', sans-serif;*/
 
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 
-html{
-   font-size: 62.5%;
-   font-family: 'Questrial', sans-serif;
 
-}
+
 
 /*header*/
 /*---------zona navegable--------------*/
@@ -356,4 +349,38 @@ input, textarea{
 
 }
 /*-----------Celulares----------------*/
+/*
+.serv1{
+  border-radius: 5px 5px 5px 5px;
+  border: 5px solid #FFF7D4;
+  h2{
+    text-align: center;
+    color:black;
+    font-size: 2.5rem;
+  }
+}
+.serv2{
+  @extend .serv1;
+}
+.serv3{
+  @extend .serv1;
+  .ref-etiq{
+    padding-top: 30px;
+   }
+}
 
+/*PRUEBA SERVICIOS*/
+/*
+.serv1, .serv2, .serv3{
+  border-radius: 5px 5px 5px 5px;
+  border: 5px solid #FFF7D4;
+  h2{
+    text-align: center;
+    color:black;
+    font-size: 2.5rem;
+  }
+} 
+.serv3 .ref-etiq{
+  padding-top: 30px;
+ }
+}

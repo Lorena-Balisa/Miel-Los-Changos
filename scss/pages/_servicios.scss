@@ -13,20 +13,25 @@
     justify-content: center;
     margin-left: 100px;
     margin-bottom: 20px;
-    .serv1, .serv2, .serv3{
-        border-radius: 5px 5px 5px 5px;
-        border: 5px solid #FFF7D4;
-        h2{
-          text-align: center;
-          color:black;
-          font-size: 2.5rem;
-        }
-      } 
-      .serv3 .ref-etiq{
+    .serv1{
+      border-radius: 5px 5px 5px 5px;
+      border: 5px solid #FFF7D4;
+      h2{
+        text-align: center;
+        color:black;
+        font-size: 2.5rem;
+      }
+    }
+    .serv2{
+      @extend .serv1;
+    }
+    .serv3{
+      @extend .serv1;
+      .ref-etiq{
         padding-top: 30px;
        }
-      }
-
+    }
+   }
 .carrusel{
     margin-left: 350px;
     }

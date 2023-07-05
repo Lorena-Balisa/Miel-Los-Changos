@@ -1,10 +1,27 @@
+
+@import "utilidades/variables";
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+ }
+ html{
+    font-size: 62.5%;
+    font-family: 'Questrial', sans-serif;
+ }
+ @mixin flex ($text, $aling){
+    text-align: $text;
+    align-items: $aling;
+}
+
 @import "pages/index";
 @import "pages/quienes-somos";
 @import "pages/productos";
 @import "pages/servicios";
 @import "pages/presupuesto";
 @import "utilidades/mediasq";
-    
+  
+
  
   
 
