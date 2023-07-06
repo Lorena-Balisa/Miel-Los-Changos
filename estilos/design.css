@@ -217,6 +217,7 @@ p {
 .frascos, .balde, .propoleo, .liquido {
   border-radius: 10px 10px 10px 10px;
   border: 9px solid #FFF7D4;
+  background-image: linear-gradient(0deg, rgb(245, 243, 88) 0%, rgba(191, 153, 17, 0.7764355742) 48%);
   margin: 0% auto;
 }
 .frascos h2, .balde h2, .propoleo h2, .liquido h2 {
@@ -244,6 +245,7 @@ p {
 .servtext .serv1, .servtext .serv3, .servtext .serv2 {
   border-radius: 5px 5px 5px 5px;
   border: 5px solid #FFF7D4;
+  background-image: linear-gradient(0deg, rgb(217, 185, 70) 0%, rgba(217, 171, 9, 0.7764355742) 48%);
 }
 .servtext .serv1 h2, .servtext .serv3 h2, .servtext .serv2 h2 {
   text-align: center;
@@ -275,8 +277,9 @@ p {
 
 form {
   padding: 50px 55px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  background-image: linear-gradient(0deg, rgb(245, 243, 88) 0%, rgba(191, 153, 17, 0.7764355742) 45%);
   text-align: center;
   width: 500px;
   margin-left: 500px;
@@ -307,7 +310,7 @@ form .contacto .btn {
   color: black;
   border: 5px;
   border-radius: 25px;
-  background-color: white;
+  background-color: #BF9911;
   box-shadow: 0 0 20px;
   width: 100px;
   cursor: pointer;
@@ -316,7 +319,7 @@ form .contacto .btn {
 @media only screen and (max-width: 500px) {
   /*Header*/
   .menu {
-    font-size: 10px;
+    font-size: 15px;
   }
   .banner h1 {
     font-size: 25px;
