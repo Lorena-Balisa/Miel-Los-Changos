@@ -36,7 +36,7 @@ header img{
             }    
     .slogan{
         color: white;
-        text-shadow: 5px 2px 10px rgba(0,0,0,0.9);
+        text-shadow: 4px 0px 11px rgba(0,0,0,1);
         }
     }
     /*Main.......................*/
@@ -75,6 +75,7 @@ main{
         text-transform: none;
         p{
             text-align: center;
+            text-shadow: 5px 2px 10px rgba(0,0,0,0.9);
            }
         .titulo-1{
             grid-area: titulo-1;
@@ -97,6 +98,8 @@ main{
           }
         .texto-2{
             grid-area: texto-2;
+            color: black;
+            text-shadow: 5px 2px 10px rgba(0,0,0,0.9);
           }
         .texto-4{
             grid-area: texto-4;
@@ -109,6 +112,7 @@ main{
           }
         .titulo-2{
             grid-area: titulo-2;
+            color: black;
           }
         .foto-7{
             grid-area: foto-7;
