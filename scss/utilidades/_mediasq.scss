@@ -68,4 +68,50 @@
      font-size: 40px;
    }
    }
-   
+@media only screen and (min-width: 481px) and (max-width: 978px) {
+  .banner h1{
+    font-size:45px;
+   }
+  /*main*/
+  .galeria{
+    grid-template-areas: 
+    "titulo-1"
+    "foto-1"
+    "texto-1"
+    "foto-2"
+    "foto-4"
+    "texto-2"
+    "foto-5"
+    "texto-4"
+    "foto-6"
+    "titulo-2"
+    "foto-7"
+    "texto-3";
+    grid-template-columns: 95%;
+    grid-template-rows: 200px repeat(11,300px);
+  }
+  .foto-3{
+    display: none;
+  }
+   /*presupuesto*/
+  form{
+    width: 100%;
+    margin-left: 0px;
+  }
+  /*servicios*/
+   .serviciotitulo h1{
+    font-size:20px ;
+  }
+  .servtext{
+    margin-left: 1px;
+  }
+  .carrusel{
+    margin-left: 100px;
+  }
+  /*quienes somos*/
+   .titulohistoria{
+    width: 100%;
+    margin-left: 5px;
+    font-size: 35px;   
+  }
+}
